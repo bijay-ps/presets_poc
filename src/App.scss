@@ -1,0 +1,32 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  font-size: 2rem;
+  padding: 20px;
+  box-sizing: border-box;
+
+  .patient-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    .icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 5%;
+      padding: 20px;
+      color: rgba(220, 220, 220);
+      cursor: pointer;
+      &:hover {
+        color: rgba(255, 255, 255);
+      }
+    }
+  }
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr
+}
